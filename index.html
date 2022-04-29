@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <!-- Link de conexão com o CSS -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/media.css">
+    <script type="text/javascript" src="./assets/scripts/script.js"></script>
+</head>
+
+<!-- Corpo, conteúdo que será exibido na página -->
+<body>
+    
+    <header>
+        <h1 id="title">Logo</h1>
+
+        <!--Lista não ordenada-->
+        <ul>
+            <!-- Itens da lista -->
+            <a href="./início.html"><li>Início</li></a>
+            <a href="#"><li>Sobre nós</li></a>
+            <a href="#" id="cadastro"><li>Faça seu cadastro</li></a>
+        </ul>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+
+        <!-- Seção da página -->
+        <aside>
+
+            <!-- Título da seção do formulário-->
+            <h2><span>Aprenda já</span></h2>
+            <h2>sobre tecnologia</h2>
+
+            <!-- Parágrafo -->
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p>Confia os <a href="#">requisitos</a> necessários para fazer o seu cadastro</p>
+
+            <!-- Início da tag form / Inicia o formulário-->
+            <form>
+                <input type="text" class="caixa" placeholder="Nome" required>
+                <p class="requisicao">Evite abreviações</p>
+                <input type="text" class="caixa" maxlength="2" placeholder="Idade" required>
+                <p class="requisicao">Coloque sua idade verdadeira</p>
+                <input type="email" class="email" placeholder="Email" maxlength="60" required>
+                <p class="requisicao">Este campo deve possui @</p>
+                <input type="submit" class="botao" value="Enviar">
+            </form>
+        </aside>
+
+        <!-- Alinhado ao elemento anterior -->
+        <article>
+            <!-- Imagem selecionada -->
+            <img src="./assets/img/womansearching.svg" alt="Imagem png moderna, mulher pesquisando">
+        </article>
+
+    </main>
+
+</body>
+</html>
+
+<!-- Conexão com o script/java script -->
+<script type="text/javascript" src="./assets/scripts/script.js"></script>

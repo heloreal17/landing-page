@@ -1,0 +1,31 @@
+@media screen and (max-width: 760px){
+
+    header{
+        flex-direction: column;
+    }
+
+    ul{
+        padding: 0;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 30x;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    input, .requisicao{
+        align-self: center;
+    }
+
+    form [type="submit"]{
+        width: 13rem;
+    }
+
+    img{
+        display: none;
+    }
+}
